@@ -1,0 +1,29 @@
+h1
+{
+    font-size: 22pt;
+}
+
+table
+{
+    border: 5px solid red;
+}
+
+tr
+{
+    height: 50px;
+}
+
+td
+{
+   background-color: black;
+   color: white;
+   font-size: 18pt;
+   font-family: georgia;
+   text-align: center;
+   width: 300px;
+}
+
+.para1
+{
+    font-size: 18pt;
+}
