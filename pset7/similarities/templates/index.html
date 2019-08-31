@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <div class="col">
+        <form action="/compare" enctype="multipart/form-data" method="post">
+            Upload the first file HERE: <br>
+            <input type="file" name="file1"><br>
+            Upload the second file HERE <br>
+            <input type="file" name="file2"><br>
+            <select name="algorithm">
+              <option>lines</option>
+              <option>sentence</option>
+              <option>substring</option>
+            </select>
+            <br>
+            Here put n:<br>
+            <input type='text' name='n'><br>
+            <input type='submit'>
+        </form>
+    </div>
+
+{% endblock %}
